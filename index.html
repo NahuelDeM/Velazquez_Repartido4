@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emu_La</title>
-    <link rel="shortcut icon" href="Img/Favicon.png">
+    <link rel="shortcut icon" href="Img/favicon.png">
     <link rel="stylesheet" href="Estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap" rel="stylesheet">
 </head>
-<!--Logo de la empresa y bienvenidos-->
-<header id="Header">
-    <div id="Logo">
-        <img src="Img/Logo.png" alt="Logo">
-        <h1>Bienvenidos a Emu_La</h1>
-        <!--Buscador-->
-    </div>
-    <div id="Buscador">
-        <input type="text" placeholder="¿Buscas algo?" style="width: 1000px;">
-        <input type="submit">
-    </div>
-</header>
-
 <body>
-
+    <header>
+        <h2 class="logo">Emu_La</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+            <nav class="menu">
+                <input id="buscador" type="text" placeholder="¿Buscas algo?">
+                <input type="submit">
+                <a href="#">Inicio</a>
+                <a href="#">Donaciones</a>
+                <a href="#">Pedidos</a>
+                <label for="check" class="esconder-menu">
+                    &#215
+            </nav>
+        </label>
+    </header>
+<main>
+    <section id="banner">
+        <div class="contenido-banner">
+            <h3><span>Bienvenido a:</span> Emu_La <br> Roms de GBA para todos!</h3>
+            <a href="#" class="boton-empezar">Juega Ya!!</a>
+        </div>
+        <section>
+            <div>
+                <img src="Img/rojofuego.jpg" alt="Portada pokemon rojo fuego">
+            </div>
+            <div>
+                <h2>Pokémon : Edición Rojo Fuego [Spain]</h2>
+                <p id="rojofuego">El objetivo principal del juego es convertirse en el campeón de Kanto al derrotar a los cuatro mejores entrenadores Pokémon de la región, la Élite Four/Alto Mando. 
+                    Otro objetivo es completar la Pokédex, una enciclopedia que se encuentra dentro del juego, mediante la obtención de las 151 especies Pokémon disponibles.</p>
+            </div>
+        </section>
+    </section>
+</main>
+    
 </body>
-
 </html>
